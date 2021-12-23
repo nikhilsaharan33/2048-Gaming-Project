@@ -341,11 +341,11 @@ def check_over(game):
     return True
 
 
-def print_game(game):
-    game_df = pandas.DataFrame(game)
-    game_df.columns = ['  '] * 4
-    game_df.index = [''] * 4
-    print(game_df)
+# def print_game(game):
+#     game_df = pandas.DataFrame(game)
+#     game_df.columns = ['  '] * 4
+#     game_df.index = [''] * 4
+#     print(game_df)
 
 
 # game = initialise_game()
